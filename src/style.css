@@ -49,14 +49,16 @@ main {
   background-color: white;
 }
 
-.why-pinnacles {
+.why-pinnacles,
+.wildlife {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px 70px;
   gap: 50px;
 }
 
-.why-pinnacles h3 {
+.why-pinnacles h3,
+.wildlife h3 {
   letter-spacing: 3px;
   color: rgb(188, 188, 188);
 }
@@ -89,11 +91,13 @@ main {
 }
 
 .card-image {
+  display: block;
   max-width: 100%;
 }
 
 .card-body {
   padding: 10px;
+  margin: 30px 0;
 }
 
 footer {
