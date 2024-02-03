@@ -27,6 +27,7 @@ body {
 .hero h3 {
   letter-spacing: 5px;
   line-height: 1.5;
+  color: #e1e1e8;
 }
 
 .hero h2 {
@@ -42,6 +43,54 @@ body {
   text-decoration: none;
   border-radius: 5px;
   padding: 6px 18px;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(11, 16, 44, 0.8),
+      rgba(11, 16, 44, 0.8)
+    ),
+    url(../images/condor.png);
+  background-position: center;
+  background-size: cover;
+  color: #e1e1e8;
+  padding: 70px 50px;
+}
+
+footer .info {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer .info div {
+  margin: 0 10px;
+}
+
+.pinnacles-links a {
+  text-decoration: none;
+  color: #e1e1e8;
+  line-height: 1.5;
+}
+
+.foot-links {
+  color: #e1e1e8;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.foot-links a {
+  color: #e1e1e8;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links div {
+  margin: 20px 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 796px) {
