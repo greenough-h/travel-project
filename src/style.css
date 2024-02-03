@@ -45,6 +45,20 @@ body {
   padding: 6px 18px;
 }
 
+main {
+  background-color: white;
+}
+
+.why-pinnacles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 70px;
+}
+
+.image {
+  max-width: 500px;
+}
+
 footer {
   background-image: linear-gradient(
       rgba(11, 16, 44, 0.8),
