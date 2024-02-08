@@ -157,6 +157,7 @@ footer .info div {
   .hero {
     padding: 50px 0;
   }
+
   .hero h1 {
     font-size: 76px;
     line-height: 1;
@@ -175,5 +176,26 @@ footer .info div {
 @media (max-width: 420px) {
   .hero h1 {
     font-size: 50px;
+  }
+
+  .why-pinnacles,
+  .wildlife,
+  .favorites {
+    padding: 30px 15px;
+  }
+
+  .why-pinnacles,
+  .wildlife,
+  footer {
+    text-align: center;
+  }
+
+  footer ul {
+    text-align: left;
+    padding: 20px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
